@@ -1,6 +1,6 @@
 # Cloud Computing Course Repository
 
-> *A collection of activities, outputs, and learning resources for BSIT 4A*
+> *A collection of activities, outputs, and learning resources for BSIT 4-I*
 
 ## 📌 About This Repository
 
