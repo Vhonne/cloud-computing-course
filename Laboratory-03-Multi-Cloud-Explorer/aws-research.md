@@ -21,5 +21,5 @@ Amazon Web Services (AWS) is a cloud computing platform provided by Amazon. It o
 
 ### Screenshot
 
-*Insert your AWS dashboard screenshot here.*
+
 
