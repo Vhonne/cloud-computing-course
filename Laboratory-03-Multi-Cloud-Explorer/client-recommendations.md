@@ -4,13 +4,13 @@
 
 ### Recommended Platform: AWS
 
-AWS is recommended for the startup because it provides a wide range of cloud services that can support the company's growth. It allows the startup to begin with the resources it needs and scale as its workload increases. AWS also provides services that can support application development, storage, and databases.
+AWS is recommended for the startup because it offers a wide range of services that can support the company as it grows. The startup can begin with only the resources it needs and scale its infrastructure as the mobile application gains users. AWS also provides many managed services that can reduce the amount of infrastructure the startup needs to maintain.
 
-### Recommended Services
-
-- Amazon EC2 – for hosting the startup's applications and virtual servers.
-- Amazon S3 – for storing files, documents, and application data.
-- Amazon RDS – for managing the startup's relational database.
+**Recommended Services:**
+- Amazon EC2
+- Amazon S3
+- Amazon RDS
+- Amazon DynamoDB
 
 ---
 
@@ -18,38 +18,53 @@ AWS is recommended for the startup because it provides a wide range of cloud ser
 
 ### Recommended Platform: Microsoft Azure
 
-Microsoft Azure is recommended for the university because it integrates well with Microsoft technologies commonly used in educational and organizational environments. Azure can support applications, data storage, databases, and identity management. Its cloud services can help the university manage different academic and administrative workloads.
+Microsoft Azure is the most appropriate platform for the university because it already uses Windows Server, Microsoft 365, and Active Directory. Azure provides strong integration with Microsoft's existing technologies and can simplify migration and identity management. This can help the university move selected services to the cloud while maintaining compatibility with its current environment.
 
-### Recommended Services
-
-- Azure Virtual Machines – for hosting university applications and systems.
-- Azure Blob Storage – for storing documents, learning materials, and other files.
-- Microsoft Entra ID – for managing user identities and access.
-
----
-
-## Client C – AI Research Team
-
-### Recommended Platform: Google Cloud Platform (GCP)
-
-GCP is recommended for the AI research team because Google Cloud provides strong artificial intelligence and machine learning capabilities. It also provides computing and storage services that can support data-intensive research workloads. The team can use Google Cloud services to develop, test, and deploy AI applications.
-
-### Recommended Services
-
-- Google Compute Engine – for running computing workloads and research applications.
-- Google Cloud Storage – for storing datasets and research files.
-- Google Cloud AI and Machine Learning services – for developing and deploying AI and machine learning solutions.
+**Recommended Services:**
+- Azure Virtual Machines
+- Microsoft Entra ID
+- Azure Blob Storage
+- Azure SQL Database
 
 ---
 
-## Client D – Global E-Commerce
+## Client C – AI Research Company
+
+### Recommended Platform: Google Cloud Platform
+
+Google Cloud Platform is recommended because the company develops Artificial Intelligence and Machine Learning applications that require high-performance computing. GCP provides strong AI, machine learning, data analytics, and computing capabilities. These services can help researchers develop, train, and deploy AI applications at scale.
+
+**Recommended Services:**
+- Google Compute Engine
+- Vertex AI
+- Google Cloud Storage
+- Google Kubernetes Engine
+
+---
+
+## Client D – Global E-Commerce Company
 
 ### Recommended Platform: AWS
 
-AWS is recommended for the global e-commerce company because it provides scalable cloud infrastructure and services that can support applications used by customers in different regions. AWS can help the company host its website, store product and customer data, and manage databases. Its global infrastructure can also support applications that need availability across different geographic locations.
+AWS is recommended because the company needs highly available infrastructure and automatic scaling for customers around the world. AWS provides scalable compute, storage, networking, and database services that can support a global e-commerce application. Its infrastructure and managed services can help the company handle changing traffic levels while maintaining availability.
 
-### Recommended Services
+**Recommended Services:**
+- Amazon EC2
+- Elastic Load Balancing
+- Amazon S3
+- Amazon RDS
+- Amazon CloudFront
+- Amazon EC2 Auto Scaling
 
-- Amazon EC2 – for hosting the e-commerce website and application servers.
-- Amazon S3 – for storing product images, files, and other application data.
-- Amazon RDS – for managing product, customer, and transaction databases.
+---
+
+# Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | AWS | AWS offers flexible and scalable services that can support a startup as its application and user base grow. |
+| Enterprise Organization | AWS | AWS provides extensive enterprise services, security features, and scalable infrastructure for complex organizations. |
+| Microsoft Environment | Azure | Azure provides strong integration with Windows Server, Microsoft 365, Active Directory, and Microsoft technologies. |
+| AI / Machine Learning | GCP | GCP provides strong Artificial Intelligence, Machine Learning, and data analytics capabilities. |
+| Kubernetes Deployment | GCP | GCP provides Google Kubernetes Engine (GKE) and strong support for Kubernetes-based applications. |
+| Global Web Application | AWS | AWS provides scalable infrastructure and services suitable for highly available applications serving users around the world. |
